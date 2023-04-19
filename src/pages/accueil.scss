@@ -1,0 +1,58 @@
+:root{
+    --kolor-primary:#4a7e1d;
+    --kolor-green-light:#61a625;
+    --kolor-white:#fff;
+    --kolor-gray:gray;
+    --kolor-black:#000;
+    --kolor-grey: grey;
+    --kolor-bg:#efefef;
+}
+.accueil{
+
+    .image{
+        width: 70%;
+        background:  transparent;
+        margin: auto;
+        margin-top: 100px;
+         text-align: center;
+        .img{
+            width: 80%;
+            margin: auto;
+        }
+    }
+
+    h4{
+        margin-left: 14%;
+    }
+   
+}
+
+@media screen and (max-width:1024px) {
+    .accueil{
+
+        .image{
+            width: 80%;
+            margin: auto;
+            margin-top: 90px;
+            img{
+                width: 80%;
+            }
+        }
+    }
+}
+@media screen and (max-width:600px) {
+    .accueil{
+
+        .image{
+            width: 90%;
+            margin: auto;
+            margin-top: 80px;
+            background:transparent;
+            // :nth-child(1)
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
