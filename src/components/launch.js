@@ -8,7 +8,8 @@ export default function Launch() {
 
     return (
         <div className='launch'>
-            <p>Karibu : <span>🤝</span></p>
+            <span>🤝</span>
+            <p>Karibu </p>
             <span>
                 <AiOutlineBell />
             </span>

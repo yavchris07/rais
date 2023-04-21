@@ -23,13 +23,13 @@ export default function Contacts() {
                     <br></br>
                     <input 
                         type='submit' 
-                        value='Valider'
+                        value='Envoyer'
                         className="btn"
                     />
                 </form>
                 <div className="by_whatsapp">
                     <img src="" alt="" />
-                    <a href="www">Par whatsapp</a>
+                    <a href="www">Via whatsapp</a>
                 </div>
                 
             </div>

@@ -1,5 +1,4 @@
 :root{
-    --kolor-primary:#4a7e1d;
     --kolor-white:#fff;
     --kolor-black:#000;
     --kolor-grey: grey;
@@ -53,11 +52,19 @@
 
     .nav{
         position: fixed;
-        justify-content: space-between;
-        background: var(--kolor-white);
-          box-shadow: 0 4px 5px rgba(5, 159, 15, 0.5);
+        background: rgba(0, 0, 0,0.3);
+        box-shadow: 0 4px 5px rgba(0, 0, 0,0.7);
+        ul{
+            padding: 0.5rem 7rem;
+            background: transparent;
+            a{
+                padding: 0.5rem;
+                &hover{
+                    background: #233423;
+                }
+            }
+        }
         
-        // height: 10rem;
     }
         
 }

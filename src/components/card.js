@@ -8,7 +8,11 @@ export default function Card() {
         <div className='cards'>
             {
                 items.map((item)=>(
-                    <div key={item.id} className='card'>
+                    <div 
+                        key={item.id} 
+                        className='card' 
+                        background={item.bg}
+                    >
                         <h5>{item.object}</h5>
                         <h2>{item.title}</h2>
                     </div>
