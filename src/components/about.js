@@ -9,8 +9,8 @@ export default function About() {
             <div className='child'>
                 <h1>Apropos</h1>
                 <p>
-                    Est une équipe gigatesque de geeks, chacun avec sa specialite, il y’a des developpeurs web, developpeurs de logiciels, developpeurs Mobile, des concepteurs des interfaces de programmation d’applications, des designers professionnels.
-                    voulant aider  et accompagner des etudiants en informatique, dans leurs travails de fin de cycle. En leur fournissant des paquets ci-dessus au prix academique
+                    Est une équipe gigantesque de geeks, chacun avec sa spécialité, il y'a des développeurs web, développeurs de logiciels, développeur Mobile, des concepteurs des interfaces de programmation d’applications, des designers professionnels.
+                    voulant aider  et accompagner des étudiants en informatique, dans leur travail de fin de cycle. En leur fournissant des paquets ci-dessus au prix académique
                 </p>
             </div>
         </section>
