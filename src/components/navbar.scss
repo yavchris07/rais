@@ -52,15 +52,21 @@
 
     .nav{
         position: fixed;
-        background: rgba(0, 0, 0,0.3);
+        background: rgba(0, 0, 0,0.4);
         box-shadow: 0 4px 5px rgba(0, 0, 0,0.7);
         ul{
-            padding: 0.5rem 7rem;
+            padding: 0.5rem 1rem;
             background: transparent;
             a{
                 padding: 0.5rem;
+                background: transparent;
+                font-size:20px;
+                border-radius: 3rem;
+                margin: 17px;
+                color: rgb(31, 136, 61);
+                // color: rgb(35, 52, 35);
                 &hover{
-                    background: #233423;
+                    background: rgb(35, 52, 35);
                 }
             }
         }

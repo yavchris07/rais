@@ -1,7 +1,7 @@
 export default function Contacts() {
     
     return (
-        <section className="contact">
+        <section className="contact" id="contact">
             <h3>CONTACTS</h3>
             <div className="mailing">
                 <form>

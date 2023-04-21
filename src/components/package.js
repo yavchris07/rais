@@ -5,8 +5,11 @@ import Card from '../components/card'
 export default function Package(props) {
     
     return (
-        <div className='pak'>
+        <section 
+            className='pak'
+            id='package'
+        >
             <Card />
-        </div>
+        </section>
     )
 }
