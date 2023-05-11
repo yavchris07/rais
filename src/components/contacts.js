@@ -1,3 +1,4 @@
+import './global.scss'
 export default function Contacts() {
     
     return (
@@ -8,11 +9,13 @@ export default function Contacts() {
                     <input 
                         type='text' 
                         placeholder="Votre nom"
+                        className='input'
                     />
                     <br></br>
                     <input 
                         type='mail' 
                         placeholder="Votre email"
+                        className='input'
                     />
                      <br></br>
                     <textarea 
@@ -29,10 +32,20 @@ export default function Contacts() {
                 </form>
                 <div className="by_whatsapp">
                     <img src="" alt="" />
-                    <a href="www">Via whatsapp</a>
+                    <a 
+                        target='_blanc'
+                        href="https://wa.me/+243972690841?text=Bonjour Raïs !, Je suis interressé(e) par tes sevices énumerés ci-dessous."
+                    >
+                        Via whatsapp
+                    </a>
+                    {/*  */}
                 </div>
                 
             </div>
+
+            <p className='copy'>
+                Copy Right @2022
+            </p>
             
         </section>
     )

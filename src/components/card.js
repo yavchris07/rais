@@ -11,7 +11,7 @@ export default function Card() {
                     <div 
                         key={item.id} 
                         className='card' 
-                        background={item.bg}
+                        style={{background:item.bg,color:item.cl}}
                     >
                         <h5>{item.object}</h5>
                         <h2>{item.title}</h2>

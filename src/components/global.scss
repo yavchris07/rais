@@ -89,7 +89,7 @@
         border-top-left-radius: 7rem;
         border-top-right-radius: 5rem;
         border-bottom-right-radius: 5rem;
-        color: rgb(35, 52, 35,0.8);
+        color: #233423cc;
     }
 }
 
@@ -125,7 +125,7 @@
     background: rgb(35, 52, 35, 0.7);
     margin: auto;
     margin-top: 10px;
-    margin-bottom: 80px;
+    margin-bottom: 130px;
 
     h3{
         color: rgb(35, 52, 35);
@@ -207,6 +207,10 @@
 }
 
 //Tablet
+@media screen and (max-width:1024px){
+    
+}
+
 //Phone
 @media screen and (max-width:600px) {
     .launch{
@@ -227,14 +231,14 @@
                 font-size: 2rem;
                 padding-top: 8.5rem;
             }
-            P{font-size: 15px; }
+            P{font-size:20px; }
         }
 
     }
 
     .container{
         width: 93%;
-        font-size: 18px;
+        font-size: 20px;
         padding: 2px 4px;
         text-align: start;
     }
@@ -249,10 +253,12 @@
         .first{
             background: rgb(35, 52, 35);
             padding: 7px 25px;
+            font-size: 20px;
         }
         .second{
             background: rgb(35, 52, 35, 0.4);
             padding: 7px 25px;
+            font-size: 20px;
         }
     }
 
@@ -300,7 +306,7 @@
                 font-size: 28px;
             }
             p{
-                font-size: 18px;
+                font-size: 20px;
                 text-align: initial;
             }
         }
@@ -310,14 +316,15 @@
     .contact{
         width: 100%;
         background: rgb(0, 0, 0,0.9);
-        margin-bottom: 1px;
+        margin-bottom: 0;
         text-align: center;
         border-top-left-radius: 4rem;
-        padding-bottom: 1px;
+        padding-bottom: 80px;
 
         h3{
             color: #efefef;
             font-weight: bold;
+            font-size: 30px;
         }
         
         .mailing{
@@ -325,61 +332,78 @@
             display: flex;
             flex-direction: column;
             padding: 2px 0;
-            margin-bottom:80px;
+            margin-bottom:40px;
 
             form{
                 display: block;
                 background: transparent;
                 padding: 5px 30px;
 
-                input{
+                .input{
                     border: 1px solid grey; 
                     outline: none;
-                    padding: 5px 80px;
+                    padding: 10px 26px;
                     margin-bottom: 7px;
-                    text-align: center;
+                    text-align: start;
+                    color:#efefef;
+                    font-size: 20px;
+                    border-radius: 5px;
                 }
                 textarea{
                     background: transparent;
                     border: 1px solid grey; 
                     width: 320px;
+                    color: #efefef;
+                    font-size: 20px;
+                    border-radius: 5px;
                 }
 
                 .btn{
                     width: 320px;
-                    height: 37px;
+                    height: 40px;
                     color: #fff;
+                    text-align: center;
                     background: rgb(35, 52, 35);
                     border: 1px solid rgb(35, 52, 35);
                     margin-top: 5px;
                     cursor: pointer;
+                    border-radius: 5px;
+                    font-size: 20px;
                     &:hover{
                         background: rgb(35, 52, 35,0.4);
                         color: #fff;
+                        border-radius: 5px;
                     }
                 }
             }
             .by_whatsapp{
                 background: transparent;
-                padding: 10px 2px;
+                padding: 15px 5px;
                 text-align: center;
                 width: 100%;
 
                 a{
                     background: rgb(31, 136, 61); 
-                    padding: 8px 110px;
+                    padding: 13px 100px;
                     margin: 10px;
                     border: none;
-                    border-radius: 2px;
+                    border-radius: 5px;
+                    font-size: 20px;
                     &:hover{
                         background: transparent;
-                        border: 1px solid rgb(31, 136, 61); 
+                        border: 1px solid rgb(31, 136, 61);
                         color: #fff;
                     }
                    
                 }
             }
             
+        }
+
+        .copy{
+            color: #bcb8b8;
+            padding-bottom: 27px;
+            background: transparent;
         }
     }
 
