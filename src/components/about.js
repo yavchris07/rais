@@ -1,6 +1,6 @@
 import React from 'react'
 import './global.scss'
-import team from '../assets/t.jpg' 
+import team from '../assets/bg.jpeg' 
 
 export default function About() {
     return (
