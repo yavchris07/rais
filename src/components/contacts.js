@@ -8,13 +8,13 @@ export default function Contacts() {
                 <form>
                     <input 
                         type='text' 
-                        placeholder="Votre nom"
+                        placeholder="Votre Nom"
                         className='input'
                     />
                     <br></br>
                     <input 
                         type='mail' 
-                        placeholder="Votre email"
+                        placeholder="Votre Email"
                         className='input'
                     />
                      <br></br>
@@ -44,7 +44,7 @@ export default function Contacts() {
             </div>
 
             <p className='copy'>
-                Copy Right @2022
+                Tout droit reservé | Raïs 2020 
             </p>
             
         </section>

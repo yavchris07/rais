@@ -77,7 +77,7 @@
     margin:auto;
     .first{
         background: rgb(35, 52, 35);
-        padding: 15px 40px;
+        padding: 20px 40px;
         border-bottom-left-radius: 5rem;
         border-top-left-radius: 5rem;
         border-top-right-radius: 7rem;
@@ -85,7 +85,7 @@
     }
     .second{
         background: #23342366;
-        padding: 15px 40px;
+        padding: 20px 40px;
         border-top-left-radius: 7rem;
         border-top-right-radius: 5rem;
         border-bottom-right-radius: 5rem;
@@ -121,14 +121,18 @@
 
 //contact
 .contact{
-    width: 100%;
-    background: rgb(35, 52, 35, 0.7);
+    width: 74%;
+    background: rgb(35, 52, 35, 0.8);
+    // background: transparent;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 28px;
     margin-bottom: 130px;
 
     h3{
         color: rgb(35, 52, 35);
+        font-size: 2em;
+        padding: 0;
+        margin: 4px;
     }
     
     .mailing{
@@ -141,37 +145,54 @@
             background: transparent;
             padding: 5px 30px;
             input{
-                border: 1px solid rgb(35, 52, 35);
+                border: 2px solid rgb(35, 52, 35);
                 outline: none;
-                padding: 5px 116px;
+                padding: 8px 72px;
                 margin-bottom: 3px;
                 background: transparent;
                 color: rgb(35, 52, 35);
                 font-weight: 600;
+                border-radius: 3px;
+                font-size: 17px;
+                text-align: start;
             }
+            
             textarea{
                 background: transparent;
-                border: 1px solid rgb(23, 25, 15);
-                width: 390px;
+                border: 2px solid rgb(23, 25, 15);
+                width: 370px;
+                font-size: 20px;
+                border-radius: 3px;
             }
             .btn{
-                width: 390px;
-                color: rgb(35, 52, 35);
+                width: unset;
+                color: rgb(235, 245, 235);
+                background: rgb(35, 52, 35);
                 cursor: pointer;
                 &:hover{
-                    background: rgb(35, 52, 35);
-                    color: #fff;
+                    background: transparent;
+                    color:rgb(35, 52, 35);
                 }
             }
         }
         .by_whatsapp{
-            background: blue;
+            background: transparent;
             width: 450px;
-            text-align: center;
+            text-align: start;
+            padding: 10px;
+            display: block;
+
+            img{
+                width: 100px;
+                height: 270px;
+                background: transparent;
+                border: none;
+            }
+
             a{
                 background: rgb(31, 136, 61); 
-                padding: 4px 10px;
-                border-radius: 3rem;
+                padding: 12px 24px;
+                border-radius: 0.2rem;
                 outline: none;
                 cursor: pointer;
                 color: #fff;
@@ -182,7 +203,15 @@
         }
         
     }
+    .copy{
+        width: 30%;
+        // margin: auto;
+        // background: blue;
+        padding: 20px;
+        margin: 20px;
+    }
 }
+
 //about
 #about{
     background: rgb(35, 52, 35, 0.4);
@@ -209,6 +238,87 @@
 //Tablet
 @media screen and (max-width:1024px){
     
+    //container
+    .container{
+        background: transparent;
+        width: 87%;
+    }
+    //box
+    .box{
+        width: 87%;
+        .first{
+            background: rgb(35, 52, 35);
+            padding: 25px 40px;
+        }
+        .second{
+            background: #23342366;
+            padding: 25px 40px;
+        }
+    }
+    
+    //package
+    .pak{
+        background: transparent;
+        width: 87%;  
+    }
+    .cards{
+        grid-template-columns: repeat(3,1fr);
+        gap: 0.4rem;
+        padding: 2px;
+        .card{
+            width: 280px;
+            height: 190px;
+            background: rgb(35, 52, 35);
+            border-radius: 1.5rem;
+            text-align: center;
+            color: #fff;
+        }
+    }
+
+    //contact
+    .contact{
+        width: 100%;
+        background: rgba(5, 6, 5, 0.8);
+        padding-bottom: 220px;
+        margin-bottom: 0;
+
+        h3{
+            color: rgb(229, 243, 229);
+            font-size: 1.6em;
+            margin: 15px;
+            margin-left: 33px;
+        }
+    
+        .copy{
+            width: 30%;
+            // background: rgb(5, 232, 5,0.2);
+            padding: 20px;
+            margin: 20px;
+            color: #fff;
+            font-size: 20px;
+        }
+    }
+
+    //about
+    #about{
+        background: rgb(35, 52, 35, 0.4);
+        color: rgb(35, 52, 35, 0.7);
+        width: 87%;
+        img{
+        width: 47%; 
+        }
+        .child{
+            width: 60%;
+            background: transparent;
+            padding: 4px 9px;
+            font-size: 18px;
+            h1{
+                color: rgb(35, 52, 35);
+                font-size: 40px;
+            }
+        }
+    }
+
 }
 
 //Phone
@@ -252,12 +362,12 @@
 
         .first{
             background: rgb(35, 52, 35);
-            padding: 7px 25px;
+            padding: 10px 25px;
             font-size: 20px;
         }
         .second{
             background: rgb(35, 52, 35, 0.4);
-            padding: 7px 25px;
+            padding:10px 25px;
             font-size: 20px;
         }
     }
@@ -325,6 +435,7 @@
             color: #efefef;
             font-weight: bold;
             font-size: 30px;
+            margin: 25px;
         }
         
         .mailing{
@@ -360,7 +471,7 @@
 
                 .btn{
                     width: 320px;
-                    height: 40px;
+                    height: 47px;
                     color: #fff;
                     text-align: center;
                     background: rgb(35, 52, 35);
@@ -381,7 +492,9 @@
                 padding: 15px 5px;
                 text-align: center;
                 width: 100%;
-
+                img{
+                    display: none;
+                }
                 a{
                     background: rgb(31, 136, 61); 
                     padding: 13px 100px;
@@ -403,7 +516,8 @@
         .copy{
             color: #bcb8b8;
             padding-bottom: 27px;
-            background: transparent;
+            background: rgb(235, 245, 255,0.1);
+            width: 90%;
         }
     }
 
